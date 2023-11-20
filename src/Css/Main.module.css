@@ -1,8 +1,5 @@
 /** @format */
 
-.hotelView {
-  /* background-color: orangered; */
+.mainView {
   flex: 1;
-
-  height: 80rem;
 }

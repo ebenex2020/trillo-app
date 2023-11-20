@@ -39,14 +39,15 @@
   transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.3s;
 }
 
-.lists:hover::before {
+.lists:hover::before,
+.lists.active {
   transform: scaleY(1);
   width: 100%;
 }
 
-.lists:active::before {
+/* .lists:active::before {
   background-color: var(--color-primary-light);
-}
+} */
 
 .sidebar a {
   color: var(--color-grey-light-1);

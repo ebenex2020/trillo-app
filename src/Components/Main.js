@@ -11,10 +11,10 @@ import Tours from "./Tours";
 import PageNotFound from "./PageNotFound";
 
 function Main() {
-  const { hotelView } = styles;
+  const { mainView } = styles;
 
   return (
-    <main className={hotelView}>
+    <main className={mainView}>
       <Routes>
         <Route path="/" element={<Hotel />} />
         <Route path="/flight" element={<Flight />} />
