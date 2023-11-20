@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 
 import styles from "../Css/Main.module.css";
 
-import Hotel from "./Hotel";
+import Hotel from "../Hotel/Hotel";
 import Flight from "./Flight";
 import CarRental from "./CarRental";
 import Tours from "./Tours";

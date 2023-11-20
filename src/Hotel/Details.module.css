@@ -1,0 +1,8 @@
+/** @format */
+
+.details {
+  display: flex;
+  gap: 4.5rem;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-2);
+}
