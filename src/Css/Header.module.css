@@ -1,0 +1,113 @@
+/** @format */
+
+.header {
+  height: 7rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: #fff;
+  font-size: 1.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img {
+  height: 3.25rem;
+  margin-left: 2rem;
+}
+
+.form {
+  /* background-color: orangered; */
+  flex: 0 0 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  font-family: inherit;
+  font-weight: inherit;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 10rem;
+  margin-right: -3.25rem;
+  width: 90%;
+  /* color: var(--color-grey-dark-3); */
+  background-color: var(--color-grey-light-3);
+
+  transition: all 0.3s;
+}
+
+.search:focus {
+  outline: none;
+  width: 100%;
+}
+
+.search::placeholder {
+  font-size: 1.4rem;
+  color: var(--color-grey-light-4);
+}
+
+.search + button {
+  border: none;
+  font-size: 1.8rem;
+  color: var(--color-grey-dark-3);
+  background-color: inherit;
+}
+
+.nav {
+  align-self: stretch;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav > * {
+  padding: 0 2rem;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav > *:hover {
+  background-color: var(--color-grey-light-2);
+}
+
+.navBox {
+  position: relative;
+}
+
+.navPhoto {
+  height: 3.75rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.navPhoto + span {
+  font-size: 1.5rem;
+  color: var(--color-grey-dark-1);
+}
+
+.input {
+  font-size: 1.6rem;
+  border: none;
+  background-color: none;
+}
+
+.notifications {
+  height: 1.75rem;
+  width: 1.75rem;
+  font-size: 0.8rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+}

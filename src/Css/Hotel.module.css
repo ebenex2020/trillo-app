@@ -1,0 +1,8 @@
+/** @format */
+.photoBox {
+  display: flex;
+}
+
+.photo {
+  width: 100%;
+}

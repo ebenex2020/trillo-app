@@ -1,0 +1,70 @@
+/** @format */
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  color: #fff;
+  flex: 0 1 18%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidelists {
+  font-size: 1.75rem;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 3.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.lists {
+  padding: 1.5rem 3rem;
+  position: relative;
+}
+
+.lists::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-primary);
+  width: 3%;
+  height: 100%;
+  transform: scaleY(0);
+  transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.3s;
+}
+
+.lists:hover::before {
+  transform: scaleY(1);
+  width: 100%;
+}
+
+.lists:active::before {
+  background-color: var(--color-primary-light);
+}
+
+.sidebar a {
+  color: var(--color-grey-light-1);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  text-decoration: none;
+  position: relative;
+}
+
+.lists span {
+  font-size: 1.4rem;
+}
+
+.sidebar p {
+  font-size: 1.3rem;
+}
+
+/* :global(.sidebar ul li.active) {
+  background-color: var(--color-primary);
+} */
