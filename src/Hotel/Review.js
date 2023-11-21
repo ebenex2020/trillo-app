@@ -5,7 +5,7 @@ import styles from "./Review.module.css";
 import img1 from "../img/user-1.jpg";
 import img2 from "../img/user-2.jpg";
 
-const Reviews = {};
+const reviews = {};
 
 function Review() {
   return (
